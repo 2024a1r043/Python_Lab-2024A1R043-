@@ -5,4 +5,3 @@ remaining_minutes = total_minutes % 60
 
 print("Hours:", hours)
 print("Remaining minutes:", remaining_minutes)
-

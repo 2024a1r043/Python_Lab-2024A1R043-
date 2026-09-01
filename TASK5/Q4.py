@@ -1,0 +1,5 @@
+# Without typecasting (treats input as string, repeats string 3 times)
+num = input()
+print(num*3)
+num = int(num)
+print(num*3)
