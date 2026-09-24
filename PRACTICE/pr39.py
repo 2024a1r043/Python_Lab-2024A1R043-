@@ -5,7 +5,10 @@ marks = float(input("Enter marks: "))
 
 student = (name, roll, marks)
 
-print("Student Data:", student)
+print("\nStudent Details:")
+print("Name:", student[0])
+print("Roll Number:", student[1])
+print("Marks:", student[2])
 
 if marks >= 90:
     grade = "A+"

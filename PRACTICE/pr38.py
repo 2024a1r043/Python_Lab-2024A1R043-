@@ -1,11 +1,18 @@
 #Write a Python program to check whether a given value is present in a tuple. If present, display its position
-t = (10, 20, 30, 40, 50)
+n = int(input("Enter number of elements: "))
 
-value = int(input("Enter value to search: "))
+t = ()
 
-if value in t:
-    position = t.index(value)
+for i in range(n):
+    value = int(input("Enter element: "))
+    t = t + (value,)
+
+print("Tuple:", t)
+
+search = int(input("Enter value to search: "))
+
+if search in t:
     print("Value is present")
-    print("Position =", position)
+    print("Position =", t.index(search))
 else:
     print("Value is not present")

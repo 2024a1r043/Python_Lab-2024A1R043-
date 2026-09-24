@@ -8,6 +8,6 @@ months = (
 n = int(input("Enter month number (1-12): "))
 
 if 1 <= n <= 12:
-    print("Month:", months[n - 1])
+    print("Month =", months[n - 1])
 else:
     print("Invalid month number")

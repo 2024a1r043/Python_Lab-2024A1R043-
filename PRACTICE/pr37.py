@@ -1,8 +1,16 @@
 #Write a Python program to store repeated values in a tuple and count how many times a given value appears.
-t = (10, 20, 10, 30, 10, 40, 20, 10)
+n = int(input("Enter number of elements: "))
 
-value = int(input("Enter value to count: "))
+t = ()
 
-count = t.count(value)
+for i in range(n):
+    value = int(input("Enter element: "))
+    t = t + (value,)
 
-print(value, "appears", count, "times")
+print("Tuple:", t)
+
+search = int(input("Enter value to count: "))
+
+count = t.count(search)
+
+print(search, "appears", count, "times")
