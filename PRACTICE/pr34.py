@@ -1,3 +1,4 @@
+#Write a Python program to store two points as tuples and calculate the distance between them
 import math
 
 p1 = (2, 3)
