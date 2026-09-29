@@ -1,4 +1,4 @@
-# Write a Python program to store multiple student records as a list of tuples. Each tuple should contain name, roll number, and marks. Display students who scored above 75 marks.
+#Write a Python program to store multiple student records as a list of tuples. Each tuple should contain name, roll number, and marks. Display students who scored above 75 marks.
 n = int(input("Enter number of students: "))
 
 students = []
