@@ -1,4 +1,5 @@
-#Create a Product class 
+#create a bank acc class that stores acc holder name and balance.add an instance method to deposit and withdraw money and the balance.
+#dont allow withdraw > avilable balance
 class BankAccount:
     def __init__(self,name,balance):
         self.name = name
